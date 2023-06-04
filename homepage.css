@@ -66,11 +66,19 @@ body {
 /* endof media queries   */
 
 
-
+/*    flex container    */
   .flex-container {
     display: flex;
-    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
     flex-wrap: wrap;
+  }
+
+  /*  left banner  */
+  .left-banner{
+    flex: 1 1 auto;
+    width: 50vmin;
+    background-color: aliceblue;
   }
 
   .left-banner a {
@@ -88,7 +96,15 @@ body {
     color: #333;
   }
 
+
+
+/*   right banner   */
+  .right-banner{
+    flex: 1 1 auto;
+    width: 50vmin;
+    background-color: #969696;
+  }
+
   .right-banner img{
-    
     border-radius: 10px;
   }
