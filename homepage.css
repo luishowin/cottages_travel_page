@@ -5,9 +5,10 @@ body {
 
 /*  navigation bar   */
 .topnav {
-    overflow: hidden;
-    padding-left: 55px;
-    padding-right: 55px;
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .topnav a {
     float: left;
@@ -16,7 +17,8 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: 'Zilla Slab', serif;
   }
   .topnav a:hover {
     color: black;
@@ -58,8 +60,9 @@ body {
 /*    flex container    */
   .flex-container {
     display: flex;
-    padding-left: 70px;
-    padding-right: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     flex-wrap: wrap;
   }
@@ -103,6 +106,23 @@ body {
     color: rgb(79, 81, 92);
     font-family: 'Zilla Slab', serif;
     letter-spacing: 2px;
+  }
+  .button{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button button{
+    border-style: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 15px 130px;
+    background-color: #ffd738;
+    color: rgb(29, 112, 125);
   }
 
 
