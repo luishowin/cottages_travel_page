@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(254, 255, 251);
 }
 
 /*  navigation bar   */
@@ -54,8 +55,6 @@ body {
   }
 
 
-
-
 /*    flex container    */
   .flex-container {
     display: flex;
@@ -69,58 +68,48 @@ body {
   .left-banner{
     flex: 1 1 auto;
     width: 50vmin;
-    background-color: aliceblue;
   }
 
   .left-banner a {
-    color: #757575;
+    color: #dab82f;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1em;
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 3px;
   }
   .left-banner a:hover{
     color: #333;
   }
-
-
+  .wrap{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+  }
   .wrap h1{
-    font-size: 3.5em;
+    font-size: 3.2em;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 15px;
-    margin-right: 20px;
+    color: rgb(73, 76, 84);
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
   }
   .wrap p{
     color: #333;
     word-wrap: break-word;
     text-align: justify;
+    font-size: 1em;
+    color: rgb(79, 81, 92);
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 2px;
   }
-  .left-banner button{
-  background-color:rgb(171, 189, 201);
-  border: none;
-  color: rgb(39, 39, 39);
-  padding: 15px 152px;
-  text-align: center;
-  font-size: 1.2em;
-  cursor: pointer;
-  border-radius: 5px;
-  }
-  .left-banner button_container{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background-color:blue;
-  }
-
 
 
 /*   right banner   */
   .right-banner{
     flex: 1 1 auto;
     width: 50vmin;
-    background-color: #969696;
   }
 
   .right-banner img{
@@ -129,4 +118,6 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
