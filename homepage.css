@@ -120,9 +120,10 @@ body {
     font-family: 'Zilla Slab', serif;
     font-size: 1.3em;
     cursor: pointer;
-    padding: 15px 130px;
+    padding: 15px 98px;
     background-color: #ffd738;
-    color: rgb(29, 112, 125);
+    color: rgb(3, 102, 117);
+    border-radius: 5px;
   }
 
 
