@@ -142,10 +142,15 @@ body {
     margin-top: 30px;
     margin-bottom: 40px;
   }
+  .center_text{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .center_text > p{
     font-size: 1.2rem;
     font-family: 'Zilla Slab', serif;
     word-wrap: break-word;
     text-align: justify;
   }
-  
