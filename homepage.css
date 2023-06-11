@@ -142,3 +142,10 @@ body {
     margin-top: 30px;
     margin-bottom: 40px;
   }
+  .center_text > p{
+    font-size: 1.2rem;
+    font-family: 'Zilla Slab', serif;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  
