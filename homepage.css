@@ -10,10 +10,10 @@
     display: block;
     color: #969696;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 18px;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Roboto', sans-serif;
   }
   .topnav a:hover {
     color: black;
@@ -35,7 +35,6 @@
       display: block;
     }
   }
-  
   @media screen and (max-width: 600px) {
     .topnav.responsive {
       position: relative;}
@@ -66,42 +65,35 @@
   .left-banner{
     flex: 1 1 auto;
     width: 50vmin;
-    background-color: #edf4f7;
-    border-radius: 2%;
+    border-radius: 2% 0% 0% 2%;
   }
 
   .left-banner a {
-    color: #dab82f;
+    color: #eda641;
     text-decoration: none;
     font-size: 1em;
-    font-family: 'Zilla Slab', serif;
     letter-spacing: 3px;
   }
   .left-banner a:hover{
     color: #333;
   }
   .wrap{
-    width: 80%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: 0;
     padding-bottom: 30px;
   }
   .wrap h1{
-    font-size: 3.2em;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    font-size: 3em;
     color: rgb(73, 76, 84);
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    margin: 0;
   }
   .wrap p{
     color: #333;
     word-wrap: break-word;
     text-align: justify;
-    font-size: 1em;
-    color: rgb(79, 81, 92);
-    font-family: 'Zilla Slab', serif;
+    font-size: 1.1em;
     letter-spacing: 2px;
   }
   .button{
@@ -118,7 +110,7 @@
     font-size: 1.3em;
     cursor: pointer;
     padding: 15px 98px;
-    background-color: #f6e088;
+    background-color: #b4d4f1;
     color: rgb(17, 18, 19);
     border-radius: 5px;
   }
@@ -128,19 +120,20 @@
   .right-banner{
     flex: 1 1 auto;
     width: 50vmin;
-    background-color: #daeef7;
+    background-color: #edf4f7;
     border-radius: 2%;
   }
 
   .right-banner img{
-    border-radius: 10px;
-    width: 100%;
+    border-radius: 2%;
+    max-width: 100%;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
+   
+  
   }
+  /* main text */
   .center_text{
     width: 80%;
     display: block;
