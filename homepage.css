@@ -1,11 +1,6 @@
-body {
-    margin: 0;
-    background-color: rgb(254, 255, 251);
-}
-
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
 /*  navigation bar   */
-.topnav {
-    
+  .topnav {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -71,6 +66,8 @@ body {
   .left-banner{
     flex: 1 1 auto;
     width: 50vmin;
+    background-color: #edf4f7;
+    border-radius: 2%;
   }
 
   .left-banner a {
@@ -86,7 +83,7 @@ body {
   .wrap{
     width: 80%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 0;
     padding-bottom: 30px;
   }
   .wrap h1{
@@ -117,12 +114,12 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     cursor: pointer;
     padding: 15px 98px;
-    background-color: #ffd738;
-    color: rgb(3, 102, 117);
+    background-color: #f6e088;
+    color: rgb(17, 18, 19);
     border-radius: 5px;
   }
 
@@ -131,11 +128,13 @@ body {
   .right-banner{
     flex: 1 1 auto;
     width: 50vmin;
+    background-color: #daeef7;
+    border-radius: 2%;
   }
 
   .right-banner img{
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -143,7 +142,7 @@ body {
     margin-bottom: 40px;
   }
   .center_text{
-    width: 70%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
